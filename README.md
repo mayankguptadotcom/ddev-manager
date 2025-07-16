@@ -1,4 +1,4 @@
-# DDEV Manager
+# DDEV Studio
 
 A modern GUI application for managing DDEV projects, built with React and Node.js.
 
