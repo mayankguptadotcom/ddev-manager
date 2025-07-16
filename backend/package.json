@@ -1,0 +1,32 @@
+{
+  "name": "ddev-manager-backend",
+  "version": "1.0.0",
+  "description": "Backend API for DDEV Manager",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^6.11.2",
+    "helmet": "^7.2.0",
+    "joi": "^17.13.3",
+    "js-yaml": "^4.1.0",
+    "multer": "^1.4.5-lts.1",
+    "sqlite3": "^5.1.7",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "ddev",
+    "manager",
+    "gui",
+    "docker"
+  ],
+  "author": "DDEV Manager Team",
+  "license": "MIT"
+}
